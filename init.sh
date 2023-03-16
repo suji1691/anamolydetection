@@ -11,7 +11,7 @@ sudo apt-get install libpcap-dev libglib2.0-dev libssl-dev sqlite3 libsqlite3-de
 
 bundle install
 
-./bin/blue_hydra
+#./bin/blue_hydra
 
 # build the code
 #make
@@ -20,7 +20,7 @@ bundle install
 #sudo make install
 
 # enable the service
-sudo systemctl enable blue_hydra.service
+#sudo systemctl enable blue_hydra.service
 
 # start the service
-sudo systemctl start blue_hydra.service
+#sudo systemctl start blue_hydra.service
